@@ -1,10 +1,7 @@
-
 import { Link } from 'react-router-dom';
 import { Facebook, MapPin, Phone, Mail } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-gray-300">
+  return <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="mb-6">
@@ -13,12 +10,7 @@ const Footer = () => {
               El Dr. Juan Pablo Rivera Santander es Retinólogo y especialista en Córnea, Segmento Anterior y Cirugía Refractiva.
             </p>
             <div className="flex space-x-4 mt-4">
-              <a 
-                href="https://www.facebook.com/oftalmologiaespecializadomerida" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-white hover:text-clinic-teal transition duration-300"
-              >
+              <a href="https://www.facebook.com/oftalmologiaespecializadomerida" target="_blank" rel="noopener noreferrer" className="text-white hover:text-clinic-teal transition duration-300">
                 <Facebook className="w-6 h-6" />
               </a>
             </div>
@@ -74,12 +66,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a 
-                  href="https://www.doctoralia.com.mx/juan-pablo-rivera-santander/oftalmologo/yucatan" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-clinic-teal transition duration-300"
-                >
+                <a href="https://www.doctoralia.com.mx/juan-pablo-rivera-santander/oftalmologo/yucatan" target="_blank" rel="noopener noreferrer" className="hover:text-clinic-teal transition duration-300">
                   Doctoralia
                 </a>
               </li>
@@ -95,7 +82,7 @@ const Footer = () => {
               </p>
               <p className="flex items-start">
                 <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-clinic-teal" />
-                <span>contacto@oftalmologoespecializadodrsantander.com</span>
+                <span>info@oftalmologoespecializadosantander.com</span>
               </p>
               <p className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 flex-shrink-0 text-clinic-teal" />
@@ -115,8 +102,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

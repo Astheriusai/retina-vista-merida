@@ -1,3 +1,4 @@
+
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,6 +15,10 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import OftalmologiaIntegral from "./pages/OftalmologiaIntegral";
 import CirugiaRefractiva from "./pages/CirugiaRefractiva";
+import Laser from "./pages/Laser";
+import RetinaVitreo from "./pages/RetinaVitreo";
+import Glaucoma from "./pages/Glaucoma";
+import Cornea from "./pages/Cornea";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +38,10 @@ const App = () => (
           <Route path="/agendar-cita" element={<AgendarCita />} />
           <Route path="/oftalmologia-integral" element={<OftalmologiaIntegral />} />
           <Route path="/cirugia-refractiva" element={<CirugiaRefractiva />} />
+          <Route path="/laser" element={<Laser />} />
+          <Route path="/retina-vitreo" element={<RetinaVitreo />} />
+          <Route path="/glaucoma" element={<Glaucoma />} />
+          <Route path="/cornea" element={<Cornea />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

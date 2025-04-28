@@ -10,7 +10,7 @@ const Index = () => {
     {
       title: "Oftalmología Integral",
       description: "Diagnóstico y tratamiento de todas las afecciones oculares por un especialista altamente capacitado.",
-      image: "https://images.unsplash.com/photo-1551958219-acbc608c6377?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=80&w=500&h=300",
+      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
       link: "/oftalmologia-integral"
     },
     {

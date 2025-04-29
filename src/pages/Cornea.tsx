@@ -2,6 +2,8 @@
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import InfoSections from '../components/InfoSections';
+import DoctorInfoBanner from '../components/DoctorInfoBanner';
+import { Link } from 'react-router-dom';
 
 const Cornea = () => {
   return (
@@ -22,6 +24,21 @@ const Cornea = () => {
                 La córnea es la ventana transparente del ojo y su salud es crucial para una buena visión. Ofrecemos tratamientos especializados para todas las condiciones que afectan a la córnea.
               </p>
 
+              <div className="flex flex-col md:flex-row items-center mb-8">
+                <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                  <img 
+                    src="https://trceyeinstitute.org/wp-content/uploads/2023/03/TRC-Cornea-Transplant.jpg" 
+                    alt="Estructura de la córnea" 
+                    className="rounded-lg shadow-md w-full h-auto"
+                  />
+                </div>
+                <div className="md:w-1/2">
+                  <p className="text-gray-700">
+                    La córnea es una estructura transparente en forma de cúpula que cubre la parte frontal del ojo. Actúa como una ventana que permite la entrada de luz y protege contra elementos externos como polvo, gérmenes y la radiación UV. La córnea también ayuda a enfocar la luz para que se pueda ver con claridad.
+                  </p>
+                </div>
+              </div>
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-semibold mb-4 text-clinic-blue">Condiciones que tratamos</h3>
@@ -29,16 +46,66 @@ const Cornea = () => {
                     <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Queratocono</li>
                     <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Úlceras corneales</li>
                     <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Distrofias corneales</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Queratitis</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Lesiones corneales</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Ojo seco severo</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Degeneración corneal</li>
+                  </ul>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-md">
+                  <h3 className="text-xl font-semibold mb-4 text-clinic-blue">Procedimientos disponibles</h3>
+                  <ul className="space-y-2">
                     <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Trasplante de córnea</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Cross-linking</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Queratoplastia lamelar</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Queratoplastia penetrante</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>Anillos intraestromales</li>
+                    <li className="flex items-center"><span className="w-2 h-2 bg-clinic-blue rounded-full mr-2"></span>PRK y PTK</li>
                   </ul>
                 </div>
               </div>
 
               <div className="mt-8">
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">Queratocono</h3>
+                <div className="flex flex-col md:flex-row items-center mb-8">
+                  <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                    <img 
+                      src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/12/06/18/45/keratoconus-8col.jpg" 
+                      alt="Queratocono" 
+                      className="rounded-lg shadow-md w-full h-auto"
+                    />
+                  </div>
+                  <div className="md:w-1/2">
+                    <p className="text-gray-700">
+                      El queratocono es una condición progresiva donde la córnea se adelgaza y protruye hacia adelante en forma de cono, causando visión distorsionada. Ofrecemos tratamientos como el cross-linking para detener su progresión y anillos intraestromales o lentes de contacto especiales para mejorar la visión.
+                    </p>
+                  </div>
+                </div>
+
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Tecnologías avanzadas</h3>
-                <p className="text-gray-600">
-                  Utilizamos las técnicas más modernas para el diagnóstico y tratamiento de enfermedades corneales, incluyendo topografía corneal, microscopía especular y cross-linking.
+                <p className="text-gray-600 mb-4">
+                  Utilizamos las técnicas más modernas para el diagnóstico y tratamiento de enfermedades corneales:
                 </p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold mb-2">Topografía corneal</h4>
+                    <p>Mapa detallado de la superficie de la córnea para detectar irregularidades.</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold mb-2">Microscopía especular</h4>
+                    <p>Evaluación de las células endoteliales de la córnea.</p>
+                  </div>
+                  <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <h4 className="font-semibold mb-2">OCT de segmento anterior</h4>
+                    <p>Imágenes detalladas de todas las capas de la córnea.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <Link to="/contacto" className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300 inline-block">
+                  Contáctanos
+                </Link>
               </div>
             </div>
             <div className="lg:w-1/3">
@@ -48,6 +115,7 @@ const Cornea = () => {
         </div>
       </section>
       
+      <DoctorInfoBanner />
       <InfoSections />
     </div>
   );

@@ -1,61 +1,103 @@
 
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 
 interface ServicesMenuProps {
   className?: string;
 }
 
 const ServicesMenu = ({ className = "" }: ServicesMenuProps) => {
+  const [isMenuExpanded, setIsMenuExpanded] = useState(true);
+  const [hoverIndex, setHoverIndex] = useState<number | null>(null);
+
+  const services = [
+    {
+      title: "Oftalmología Integral",
+      path: "/oftalmologia-integral",
+      description: "Evaluación y tratamiento completo para todas las condiciones oculares."
+    },
+    {
+      title: "Cirugía de Catarata",
+      path: "/cirugia-catarata",
+      description: "Procedimientos avanzados con tecnología de última generación."
+    },
+    {
+      title: "Cirugía Refractiva",
+      path: "/cirugia-refractiva",
+      description: "Corrección permanente de defectos refractivos como miopía y astigmatismo."
+    },
+    {
+      title: "Láser",
+      path: "/laser",
+      description: "Tratamientos precisos y seguros con tecnología láser avanzada."
+    },
+    {
+      title: "Retina y Vítreo",
+      path: "/retina-vitreo",
+      description: "Diagnóstico y tratamiento especializado de enfermedades retinianas."
+    },
+    {
+      title: "Glaucoma",
+      path: "/glaucoma",
+      description: "Detección temprana y manejo integral del glaucoma."
+    },
+    {
+      title: "Córnea",
+      path: "/cornea",
+      description: "Tratamientos especializados para todas las condiciones corneales."
+    },
+    {
+      title: "Retinopatía Diabética",
+      path: "/retinopatia-diabetica",
+      description: "Manejo avanzado de las complicaciones oculares de la diabetes."
+    },
+    {
+      title: "Otros",
+      path: "/otros",
+      description: "Servicios adicionales como pterigión, estrabismo y blefaroplastia."
+    }
+  ];
+
   return (
     <div className={`bg-white rounded-lg shadow-lg p-6 ${className}`}>
-      <h3 className="text-xl font-semibold text-gray-800 mb-4">Menú de Servicios</h3>
-      <ul className="space-y-2">
-        <li>
-          <Link to="/oftalmologia-integral" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Oftalmología Integral
-          </Link>
-        </li>
-        <li>
-          <Link to="/cirugia-catarata" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Cirugía de Catarata
-          </Link>
-        </li>
-        <li>
-          <Link to="/cirugia-refractiva" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Cirugía Refractiva
-          </Link>
-        </li>
-        <li>
-          <Link to="/laser" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Láser
-          </Link>
-        </li>
-        <li>
-          <Link to="/retina-vitreo" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Manejo Especializado de Retina y Vítreo
-          </Link>
-        </li>
-        <li>
-          <Link to="/glaucoma" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Glaucoma
-          </Link>
-        </li>
-        <li>
-          <Link to="/cornea" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Córnea
-          </Link>
-        </li>
-        <li>
-          <Link to="/retinopatia-diabetica" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Retinopatía Diabética
-          </Link>
-        </li>
-        <li>
-          <Link to="/otros" className="text-gray-700 hover:text-clinic-blue transition duration-300 block py-2 px-3 hover:bg-gray-50 rounded">
-            Otros
-          </Link>
-        </li>
-      </ul>
+      <div 
+        className="flex justify-between items-center cursor-pointer mb-4"
+        onClick={() => setIsMenuExpanded(!isMenuExpanded)}
+      >
+        <h3 className="text-xl font-semibold text-gray-800">Menú de Servicios</h3>
+        {isMenuExpanded ? (
+          <ChevronUp className="h-5 w-5 text-gray-500" />
+        ) : (
+          <ChevronDown className="h-5 w-5 text-gray-500" />
+        )}
+      </div>
+      
+      <div className={`transition-all duration-300 ease-in-out overflow-hidden ${isMenuExpanded ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'}`}>
+        <ul className="space-y-2">
+          {services.map((service, index) => (
+            <li key={service.path}>
+              <Link 
+                to={service.path} 
+                className="block"
+                onMouseEnter={() => setHoverIndex(index)}
+                onMouseLeave={() => setHoverIndex(null)}
+              >
+                <div className="py-2 px-3 rounded-md transition-all duration-200 hover:bg-gray-50">
+                  <span className="block text-gray-700 hover:text-clinic-blue font-medium">
+                    {service.title}
+                  </span>
+                  <span 
+                    className={`text-xs text-gray-500 transition-all duration-300 ${hoverIndex === index ? 'block h-auto mt-1 opacity-100' : 'h-0 opacity-0 overflow-hidden'}`}
+                  >
+                    {service.description}
+                  </span>
+                </div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <div className="mt-6 border-t border-gray-200 pt-6">
         <iframe 

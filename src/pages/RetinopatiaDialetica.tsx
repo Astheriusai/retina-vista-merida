@@ -52,10 +52,7 @@ const RetinopatiaDialetica = () => {
                   Si apenas comienza la afección es posible que tan solo haya seguimiento médico. Si, por el contrario, el padecimiento ha avanzado, 
                   una operación será necesaria.
                 </p>
-                <p className="text-gray-600 mb-6 font-light text-sm text-center">
-                  Reconocido por su enorme profesionalismo, gran preparación y calidez humana, el Dr. Juan Pablo Rivera atiende a sus pacientes en su 
-                  consultorio en Mérida. Te invitamos a visitarnos o a ponerte en contacto para obtener más información y conocer el precio de una cirugía.
-                </p>
+                <p className="text-gray-600 mb-6 font-light text-sm text-center">"Reconocido por su enorme profesionalismo, gran preparación y calidez humana, el Dr. Juan Pablo Rivera atiende a sus pacientes en su consultorio en Mérida. Te invitamos a visitarnos o a ponerte en contacto para obtener más información y conocer el precio de una cirugía."</p>
                 <Link to="/contacto" className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block">
                   Contáctanos
                 </Link>

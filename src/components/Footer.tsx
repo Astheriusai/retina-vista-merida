@@ -1,3 +1,4 @@
+
 import { Link } from 'react-router-dom';
 import { Facebook, MapPin, Phone, Mail } from 'lucide-react';
 const Footer = () => {
@@ -82,7 +83,7 @@ const Footer = () => {
               </p>
               <p className="flex items-start">
                 <Mail className="mr-2 h-5 w-5 flex-shrink-0 text-clinic-teal" />
-                <span>info@oftalmologoespecializadosantander.com</span>
+                <span className="break-all">info@oftalmologoespecializadosantander.com</span>
               </p>
               <p className="flex items-start">
                 <MapPin className="mr-2 h-5 w-5 flex-shrink-0 text-clinic-teal" />

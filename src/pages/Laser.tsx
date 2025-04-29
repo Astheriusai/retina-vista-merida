@@ -1,5 +1,7 @@
+
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+
 const Laser = () => {
   return <div>
       <HeroSection backgroundImage="https://eyeprocenter.com/wp-content/uploads/2021/04/iStock-1213365875-1200x628.jpeg" title="Tratamientos con Láser" subtitle="Tecnología de vanguardia para tratamientos precisos y seguros." credentials={true} />
@@ -17,10 +19,22 @@ const Laser = () => {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-semibold mb-4 text-clinic-blue">Precios Procedimiento</h3>
                   <ul className="space-y-2">
-                    
-                    
-                    
-                    
+                    <li className="flex justify-between">
+                      <span>Consulta de evaluación</span>
+                      <span className="font-semibold">$1,200</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Láser Argón</span>
+                      <span className="font-semibold">$5,000</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Láser YAG</span>
+                      <span className="font-semibold">$5,500</span>
+                    </li>
+                    <li className="flex justify-between">
+                      <span>Fotocoagulación</span>
+                      <span className="font-semibold">$6,000</span>
+                    </li>
                   </ul>
                 </div>
               </div>

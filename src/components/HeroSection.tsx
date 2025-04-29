@@ -30,10 +30,10 @@ const HeroSection = ({ backgroundImage, title, subtitle, credentials = true }: H
           )}
           <div className="mt-8">
             <Link 
-              to="/contacto" 
+              to="/agendar-cita" 
               className="bg-clinic-blue px-8 py-3 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 animate-fade-in"
             >
-              Contáctanos
+              Agenda una Cita
             </Link>
           </div>
         </div>

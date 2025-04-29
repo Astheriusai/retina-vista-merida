@@ -1,17 +1,9 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
-
 const RetinopatiaDialetica = () => {
-  return (
-    <div>
-      <HeroSection
-        backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.40.36-PM.jpeg"
-        title="Retinopatía Diabética"
-        subtitle="Diagnóstico y tratamiento especializado de la retinopatía diabética."
-        credentials={true}
-      />
+  return <div>
+      <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.40.36-PM.jpeg" title="Retinopatía Diabética" subtitle="Diagnóstico y tratamiento especializado de la retinopatía diabética." credentials={true} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">
@@ -23,12 +15,7 @@ const RetinopatiaDialetica = () => {
                 De no recibir el tratamiento adecuado de forma oportuna puede conducir a la pérdida completa de la visión.
               </p>
 
-              <Link 
-                to="/contacto" 
-                className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block mb-8"
-              >
-                Contáctanos
-              </Link>
+              
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
@@ -56,12 +43,7 @@ const RetinopatiaDialetica = () => {
                 Si la persona cuenta con factores de riesgo y presenta alguno de los síntomas, debe acudir con un oftalmólogo especialista inmediatamente.
               </p>
 
-              <Link 
-                to="/contacto" 
-                className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block mb-8"
-              >
-                Contáctanos
-              </Link>
+              
 
               <div className="mt-8">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Tratamiento</h3>
@@ -74,10 +56,7 @@ const RetinopatiaDialetica = () => {
                   Reconocido por su enorme profesionalismo, gran preparación y calidez humana, el Dr. Juan Pablo Rivera atiende a sus pacientes en su 
                   consultorio en Mérida. Te invitamos a visitarnos o a ponerte en contacto para obtener más información y conocer el precio de una cirugía.
                 </p>
-                <Link 
-                  to="/contacto" 
-                  className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block"
-                >
+                <Link to="/contacto" className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block">
                   Contáctanos
                 </Link>
               </div>
@@ -88,8 +67,6 @@ const RetinopatiaDialetica = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default RetinopatiaDialetica;

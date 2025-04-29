@@ -1,17 +1,9 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
-
 const Otros = () => {
-  return (
-    <div>
-      <HeroSection
-        backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.27.56-PM.jpeg"
-        title="Otros Servicios"
-        subtitle="Servicios adicionales especializados para el cuidado de sus ojos."
-        credentials={true}
-      />
+  return <div>
+      <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.27.56-PM.jpeg" title="Otros Servicios" subtitle="Servicios adicionales especializados para el cuidado de sus ojos." credentials={true} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">
@@ -27,12 +19,7 @@ const Otros = () => {
                   a bloquear la visión al tapar la córnea. Ambas afecciones pueden ser causadas por la combinación de ojos secos y exposición a 
                   elementos ambientales, como viento, polvo y luz ultravioleta. Su tratamiento puede consistir en el uso de gotas o cirugía láser.
                 </p>
-                <Link 
-                  to="/contacto" 
-                  className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block"
-                >
-                  Contáctanos
-                </Link>
+                
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md mb-8">
@@ -42,12 +29,7 @@ const Otros = () => {
                   Esta afección es particularmente común en niños y en personas con parálisis cerebral, síndrome de Down, 
                   hidrocefalia y tumores cerebrales, entre otros. El tratamiento puede requerir el uso de un parche o cirugía.
                 </p>
-                <Link 
-                  to="/contacto" 
-                  className="bg-clinic-blue px-6 py-2 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 inline-block"
-                >
-                  Contáctanos
-                </Link>
+                
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md">
@@ -65,8 +47,6 @@ const Otros = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Otros;

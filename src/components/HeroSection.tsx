@@ -11,10 +11,13 @@ interface HeroSectionProps {
 const HeroSection = ({ backgroundImage, title, subtitle, credentials = true }: HeroSectionProps) => {
   return (
     <div 
-      className="hero-section flex items-center justify-center text-white"
+      className="hero-section relative flex items-center justify-center text-white"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="content-overlay container mx-auto px-6 text-center py-16 md:py-24">
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/40"></div>
+      
+      <div className="content-overlay container relative z-10 mx-auto px-6 text-center py-16 md:py-24">
         <h1 className="mb-4 font-bold text-4xl md:text-5xl lg:text-6xl max-w-4xl mx-auto animate-slide-in">{title}</h1>
         <div className="max-w-3xl mx-auto">
           <p className="text-lg md:text-xl mb-8 animate-slide-in">{subtitle}</p>

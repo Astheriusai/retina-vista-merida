@@ -19,6 +19,8 @@ import Laser from "./pages/Laser";
 import RetinaVitreo from "./pages/RetinaVitreo";
 import Glaucoma from "./pages/Glaucoma";
 import Cornea from "./pages/Cornea";
+import RetinopatiaDialetica from "./pages/RetinopatiaDialetica";
+import Otros from "./pages/Otros";
 
 const queryClient = new QueryClient();
 
@@ -42,6 +44,8 @@ const App = () => (
           <Route path="/retina-vitreo" element={<RetinaVitreo />} />
           <Route path="/glaucoma" element={<Glaucoma />} />
           <Route path="/cornea" element={<Cornea />} />
+          <Route path="/retinopatia-diabetica" element={<RetinopatiaDialetica />} />
+          <Route path="/otros" element={<Otros />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

@@ -32,6 +32,14 @@ const AgendarCita = () => {
                 <h3 className="text-xl font-semibold">Calendario de Citas Disponibles</h3>
               </div>
               
+              <div className="flex justify-center mb-6">
+                <img 
+                  src="https://d1z2trv7j5yzbh.cloudfront.net/uploads/2023/10/doctoralia-app-1024x681.jpg" 
+                  alt="Doctoralia App" 
+                  className="max-w-md w-full rounded-lg shadow-md"
+                />
+              </div>
+              
               <iframe 
                 title="Doctoralia Calendario Completo"
                 src="//www.doctoralia.com.mx/ajax/marketing/doctor/widget/big_with_calendar/juan-pablo-rivera-santander/null?customUtm=null&id=j6cbp50qz1&header=null&content=null&fullwidth=null&referer=https%3A%2F%2Foftalmologiaespecializadadrsantander.com%2F&hide_branding=true&widget_position=bottom&opinion=false&saasonly=false&expand_calendar=true" 
@@ -50,6 +58,13 @@ const AgendarCita = () => {
               <div className="flex items-center justify-center text-2xl font-bold text-clinic-blue">
                 <Phone className="w-6 h-6 mr-2" />
                 <p>+52 999 739 8637</p>
+              </div>
+              <div className="mt-6 flex justify-center">
+                <img 
+                  src="https://thumbs.dreamstime.com/b/doctor-holding-stethoscope-medical-appointment-concept-157298787.jpg" 
+                  alt="Doctor appointment" 
+                  className="w-72 h-auto rounded-lg shadow-md"
+                />
               </div>
             </div>
             
@@ -75,6 +90,13 @@ const AgendarCita = () => {
                   <span>Si necesita cancelar o reprogramar su cita, favor de avisar con al menos 24 horas de anticipación.</span>
                 </li>
               </ul>
+              <div className="mt-6 flex justify-center">
+                <img 
+                  src="https://thumbs.dreamstime.com/b/vector-medical-calendar-appointment-reminder-concept-65534528.jpg" 
+                  alt="Recordatorio de cita" 
+                  className="w-48 h-auto rounded-lg shadow-sm"
+                />
+              </div>
             </div>
             
             <div className="mt-12 p-6 bg-white rounded-lg shadow-lg">

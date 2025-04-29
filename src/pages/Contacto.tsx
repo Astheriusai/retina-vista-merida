@@ -1,7 +1,9 @@
 
 import { useState } from 'react';
 import HeroSection from '../components/HeroSection';
-import { MapPin, Phone, Mail, Send } from 'lucide-react';
+import { MapPin, Phone, Mail, Send, Calendar } from 'lucide-react';
+import InfoSections from '../components/InfoSections';
+import DoctorInfoBanner from '../components/DoctorInfoBanner';
 
 const Contacto = () => {
   const [formData, setFormData] = useState({
@@ -82,10 +84,41 @@ const Contacto = () => {
                     <p className="text-gray-600">Calle 23 #311, X 30 y Calle 36 Diagonal (Av. García Lavin), Frente al Ateneo y a un costado de Victory Plat, Col. Montebello, C.P. 97113, Mérida, Yuc.</p>
                   </div>
                 </div>
+
+                <div className="flex items-start">
+                  <div className="bg-clinic-blue text-white p-3 rounded-full mr-4">
+                    <Calendar className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-gray-800 mb-1">Horarios</h3>
+                    <p className="text-gray-600">Lunes a Viernes: 9:00 AM - 2:00 PM y 4:00 PM - 7:00 PM</p>
+                    <p className="text-gray-600">Sábados: 9:00 AM - 1:00 PM</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 mb-10">
+                <img 
+                  src="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2022/06/Group-50@2x-300x146.png" 
+                  alt="Dr. Santander logo" 
+                  className="h-20 mb-4"
+                />
+                <img 
+                  src="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/rsz_whatsapp_image_2019-11-06_at_154607-768x618.jpg" 
+                  alt="Consultorio" 
+                  className="rounded-lg shadow-lg w-full h-auto"
+                />
               </div>
 
               <div className="mt-10">
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">Agenda tu Cita</h3>
+                <div className="bg-white shadow-md rounded-lg p-4 mb-4">
+                  <img 
+                    src="https://www.doctoralia.com.mx/images/logo.svg" 
+                    alt="Doctoralia" 
+                    className="h-10 mb-4" 
+                  />
+                </div>
                 <iframe 
                   title="Doctoralia Calendario"
                   src="//www.doctoralia.com.mx/ajax/marketing/doctor/widget/big_with_calendar/juan-pablo-rivera-santander/null?customUtm=null&id=j6cbp50qz1&header=null&content=null&fullwidth=null&referer=https%3A%2F%2Foftalmologiaespecializadadrsantander.com%2F&hide_branding=true&widget_position=bottom&opinion=false&saasonly=false&expand_calendar=false" 
@@ -186,6 +219,24 @@ const Contacto = () => {
                   </button>
                 </form>
               </div>
+
+              <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
+                <h4 className="text-lg font-semibold mb-4">Antes de tu visita</h4>
+                <img 
+                  src="https://images.unsplash.com/photo-1606818716177-f9a0676553f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                  alt="Consultorio oftalmológico" 
+                  className="rounded-lg shadow-sm mb-4 w-full h-64 object-cover"
+                />
+                <p className="text-gray-600">
+                  Para una primera consulta, te recomendamos traer:
+                </p>
+                <ul className="mt-2 text-gray-600 list-disc pl-5">
+                  <li>Identificación oficial</li>
+                  <li>Estudios o recetas previas (si existen)</li>
+                  <li>Lista de medicamentos actuales</li>
+                  <li>Antecedentes médicos relevantes</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -204,6 +255,9 @@ const Contacto = () => {
           </div>
         </div>
       </section>
+
+      <DoctorInfoBanner />
+      <InfoSections />
     </div>
   );
 };

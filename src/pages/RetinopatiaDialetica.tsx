@@ -1,6 +1,9 @@
+
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+import InfoSections from '../components/InfoSections';
+
 const RetinopatiaDialetica = () => {
   return <div>
       <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.40.36-PM.jpeg" title="Retinopatía Diabética" subtitle="Diagnóstico y tratamiento especializado de la retinopatía diabética." credentials={true} />
@@ -64,6 +67,8 @@ const RetinopatiaDialetica = () => {
           </div>
         </div>
       </section>
+      
+      <InfoSections />
     </div>;
 };
 export default RetinopatiaDialetica;

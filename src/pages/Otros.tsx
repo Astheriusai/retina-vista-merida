@@ -1,6 +1,9 @@
+
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+import InfoSections from '../components/InfoSections';
+
 const Otros = () => {
   return <div>
       <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.27.56-PM.jpeg" title="Otros Servicios" subtitle="Servicios adicionales especializados para el cuidado de sus ojos." credentials={true} />
@@ -47,6 +50,8 @@ const Otros = () => {
           </div>
         </div>
       </section>
+      
+      <InfoSections />
     </div>;
 };
 export default Otros;

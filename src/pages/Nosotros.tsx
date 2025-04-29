@@ -2,6 +2,7 @@
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
+import InfoSections from '../components/InfoSections';
 
 const Nosotros = () => {
   return (
@@ -132,6 +133,7 @@ const Nosotros = () => {
       </section>
 
       <DoctorInfoBanner />
+      <InfoSections />
     </div>
   );
 };

@@ -1,5 +1,8 @@
+
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+import InfoSections from '../components/InfoSections';
+
 const Laser = () => {
   return <div>
       <HeroSection backgroundImage="https://eyeprocenter.com/wp-content/uploads/2021/04/iStock-1213365875-1200x628.jpeg" title="Tratamientos con Láser" subtitle="Tecnología de vanguardia para tratamientos precisos y seguros." credentials={true} />
@@ -32,6 +35,8 @@ A pesar de esto, debes tener expectativas realistas. Con el paso de los años pu
           </div>
         </div>
       </section>
+      
+      <InfoSections />
     </div>;
 };
 export default Laser;

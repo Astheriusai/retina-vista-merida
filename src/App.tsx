@@ -21,6 +21,7 @@ import Glaucoma from "./pages/Glaucoma";
 import Cornea from "./pages/Cornea";
 import RetinopatiaDialetica from "./pages/RetinopatiaDialetica";
 import Otros from "./pages/Otros";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Navbar />
         <WhatsAppButton />
         <Routes>

@@ -1,6 +1,7 @@
 
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+import InfoSections from '../components/InfoSections';
 
 const OftalmologiaIntegral = () => {
   return (
@@ -50,6 +51,8 @@ const OftalmologiaIntegral = () => {
           </div>
         </div>
       </section>
+      
+      <InfoSections />
     </div>
   );
 };

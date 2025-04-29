@@ -1,6 +1,7 @@
 
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+import InfoSections from '../components/InfoSections';
 
 const Glaucoma = () => {
   return (
@@ -46,6 +47,8 @@ const Glaucoma = () => {
           </div>
         </div>
       </section>
+      
+      <InfoSections />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
+import InfoSections from '../components/InfoSections';
 
 const CirugiaRefractiva = () => {
   return (
@@ -51,6 +52,8 @@ const CirugiaRefractiva = () => {
           </div>
         </div>
       </section>
+      
+      <InfoSections />
     </div>
   );
 };

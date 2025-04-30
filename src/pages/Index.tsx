@@ -23,7 +23,7 @@ const Index = () => {
   return <div>
       <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.30.57-PM.jpeg" title="Dr. Juan Pablo Rivera Santander" subtitle="El Dr. Juan Pablo Rivera Santander es Retinólogo y especialista en Córnea, Segmento Anterior y Cirugía Refractiva. Entrenado en las instituciones con mayores avances tecnológicos y de más prestigio en México y Latinoamérica, destaca por su gran profesionalismo e incomparable calidez humana." />
 
-      <section className="py-16 bg-gray-50 px-[21px]">
+      <section className="bg-gray-50 px-[21px] py-[45px]">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Oftalmología Especializada</h2>
@@ -49,7 +49,7 @@ const Index = () => {
 
       <DoctorInfoBanner />
 
-      <section className="py-16 px-[14px]">
+      <section className="py-16 px-[27px]">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-start">
             <div className="lg:w-2/3 pr-0 lg:pr-12 mb-10 lg:mb-0">
@@ -80,13 +80,13 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="bg-clinic-blue text-white py-16">
+      <section className="bg-clinic-blue text-white py-[17px]">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-6">¿Necesitas una Consulta?</h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto">
+          <h2 className="font-bold mb-6 text-2xl">¿Necesitas una Consulta?</h2>
+          <p className="mb-8 max-w-2xl mx-auto text-base">
             Agenda una cita con el Dr. Juan Pablo Rivera Santander y recibe la mejor atención oftalmológica especializada en Mérida.
           </p>
-          <Link to="/agendar-cita" className="bg-white text-clinic-blue px-8 py-3 rounded-md hover:bg-gray-100 transition duration-300 inline-block">
+          <Link to="/agendar-cita" className="bg-white text-clinic-blue rounded-md hover:bg-gray-100 transition duration-300 inline-block px-[19px] py-[9px]">
             Agendar Cita
           </Link>
         </div>

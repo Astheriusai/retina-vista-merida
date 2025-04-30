@@ -42,12 +42,7 @@ const Index = () => {
           </div>
 
           <div className="text-center mt-12">
-            <Link to="/servicios" className="inline-flex items-center text-clinic-blue hover:text-clinic-teal transition duration-300 text-lg">
-              Ver todos nuestros servicios
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
+            
           </div>
         </div>
       </section>

@@ -49,7 +49,7 @@ const Index = () => {
 
       <DoctorInfoBanner />
 
-      <section className="py-16">
+      <section className="py-16 px-[14px]">
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-start">
             <div className="lg:w-2/3 pr-0 lg:pr-12 mb-10 lg:mb-0">

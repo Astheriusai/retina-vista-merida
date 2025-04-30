@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Facebook, MapPin, Phone, Mail } from 'lucide-react';
 const Footer = () => {
   return <>
-      <footer className="bg-gray-900 text-gray-300 pt-12 pb-8 py-[21px]">
+      <footer className="bg-gray-900 text-gray-300 pt-12 pb-8 px-[6px] py-[22px]">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
             <div className="mb-6">

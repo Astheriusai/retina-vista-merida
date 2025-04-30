@@ -1,3 +1,4 @@
+
 import HeroSection from '../components/HeroSection';
 import { Calendar, Clock, Phone } from 'lucide-react';
 const AgendarCita = () => {
@@ -8,7 +9,7 @@ const AgendarCita = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <img src="https://www.doctoralia.com.mx/images/logo.svg" alt="Doctoralia" className="h-16 mx-auto mb-8" />
+              <img src="https://logos-download.com/wp-content/uploads/2023/02/Doctoralia_Logo.png" alt="Doctoralia" className="h-16 mx-auto mb-8" />
               <p className="text-lg text-gray-600 mb-6">
                 Utiliza nuestro sistema de agenda online para programar tu cita con el Dr. Juan Pablo Rivera Santander.
               </p>
@@ -21,7 +22,7 @@ const AgendarCita = () => {
               </div>
               
               <div className="flex justify-center mb-6">
-                <img src="https://d1z2trv7j5yzbh.cloudfront.net/uploads/2023/10/doctoralia-app-1024x681.jpg" alt="Doctoralia App" className="max-w-md w-full rounded-lg shadow-md" />
+                <img src="https://d2lcsjo4hzzyvz.cloudfront.net/blog/wp-content/uploads/2022/05/13100505/Por-que%CC%81-ofrecer-citas-me%CC%81dicas-virtuales-a-tus-pacientes-.jpg" alt="Doctoralia App" className="max-w-md w-full rounded-lg shadow-md" />
               </div>
               
               <iframe title="Doctoralia Calendario Completo" src="//www.doctoralia.com.mx/ajax/marketing/doctor/widget/big_with_calendar/juan-pablo-rivera-santander/null?customUtm=null&id=j6cbp50qz1&header=null&content=null&fullwidth=null&referer=https%3A%2F%2Foftalmologiaespecializadadrsantander.com%2F&hide_branding=true&widget_position=bottom&opinion=false&saasonly=false&expand_calendar=true" width="100%" height="600" frameBorder="0" className="border border-gray-100 rounded"></iframe>

@@ -27,7 +27,7 @@ const Cornea = () => {
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                   <img 
-                    src="https://trceyeinstitute.org/wp-content/uploads/2023/03/TRC-Cornea-Transplant.jpg" 
+                    src="https://aio-oftalmologia.com/wp-content/uploads/De-que-se-ocupa-un-oftalmologo.jpg" 
                     alt="Estructura de la córnea" 
                     className="rounded-lg shadow-md w-full h-auto"
                   />
@@ -66,11 +66,29 @@ const Cornea = () => {
               </div>
 
               <div className="mt-8">
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">Estructura del ojo</h3>
+                <div className="flex flex-col md:flex-row items-center mb-8">
+                  <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                    <img 
+                      src="https://www.vista-laser.com/wp-content/uploads/2022/05/estructura-ojo.png" 
+                      alt="Anatomía del ojo" 
+                      className="rounded-lg shadow-md w-full h-auto"
+                    />
+                  </div>
+                  <div className="md:w-1/2">
+                    <p className="text-gray-700">
+                      La córnea es la primera capa del ojo que entra en contacto con la luz. Es una estructura transparente que permite el paso de la luz y la enfoca hacia la retina. Su salud y transparencia son fundamentales para una buena visión. Cualquier alteración en su forma, transparencia o hidratación puede afectar significativamente la calidad visual.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Queratocono</h3>
                 <div className="flex flex-col md:flex-row items-center mb-8">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                     <img 
-                      src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2018/12/06/18/45/keratoconus-8col.jpg" 
+                      src="https://salauno.com.mx/wp-content/uploads/2023/07/ojo-con-queratocono-salauno.jpg" 
                       alt="Queratocono" 
                       className="rounded-lg shadow-md w-full h-auto"
                     />

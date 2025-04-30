@@ -16,55 +16,46 @@ const ServicesMenu = ({ className = "" }: ServicesMenuProps) => {
       title: "Oftalmología Integral",
       path: "/oftalmologia-integral",
       description: "Evaluación y tratamiento completo para todas las condiciones oculares.",
-      icon: "https://cdn-icons-png.flaticon.com/512/4727/4727424.png"
     },
     {
       title: "Cirugía de Catarata",
       path: "/cirugia-catarata",
       description: "Procedimientos avanzados con tecnología de última generación.",
-      icon: "https://cdn-icons-png.flaticon.com/512/3004/3004458.png"
     },
     {
       title: "Cirugía Refractiva",
       path: "/cirugia-refractiva",
       description: "Corrección permanente de defectos refractivos como miopía y astigmatismo.",
-      icon: "https://cdn-icons-png.flaticon.com/512/8238/8238058.png"
     },
     {
       title: "Láser",
       path: "/laser",
       description: "Tratamientos precisos y seguros con tecnología láser avanzada.",
-      icon: "https://cdn-icons-png.flaticon.com/512/6994/6994354.png"
     },
     {
       title: "Retina y Vítreo",
       path: "/retina-vitreo",
       description: "Diagnóstico y tratamiento especializado de enfermedades retinianas.",
-      icon: "https://cdn-icons-png.flaticon.com/512/6555/6555079.png"
     },
     {
       title: "Glaucoma",
       path: "/glaucoma",
       description: "Detección temprana y manejo integral del glaucoma.",
-      icon: "https://cdn-icons-png.flaticon.com/512/4388/4388528.png"
     },
     {
       title: "Córnea",
       path: "/cornea",
       description: "Tratamientos especializados para todas las condiciones corneales.",
-      icon: "https://cdn-icons-png.flaticon.com/512/5581/5581393.png"
     },
     {
       title: "Retinopatía Diabética",
       path: "/retinopatia-diabetica",
       description: "Manejo avanzado de las complicaciones oculares de la diabetes.",
-      icon: "https://cdn-icons-png.flaticon.com/512/9583/9583668.png"
     },
     {
       title: "Otros",
       path: "/otros",
       description: "Servicios adicionales como pterigión, estrabismo y blefaroplastia.",
-      icon: "https://cdn-icons-png.flaticon.com/512/3004/3004448.png"
     }
   ];
 
@@ -94,13 +85,12 @@ const ServicesMenu = ({ className = "" }: ServicesMenuProps) => {
               >
                 <div className="py-2 px-3 rounded-md transition-all duration-300 hover:bg-gray-50 border border-transparent hover:border-gray-200">
                   <div className="flex items-center">
-                    <img src={service.icon} alt={service.title} className="w-6 h-6 mr-2" />
                     <span className={`block text-gray-700 transition-colors duration-300 ${hoverIndex === index ? 'text-clinic-blue font-medium' : ''}`}>
                       {service.title}
                     </span>
                   </div>
                   <div 
-                    className={`text-xs text-gray-500 pl-8 transition-all duration-300 ${hoverIndex === index ? 'h-auto mt-1 opacity-100' : 'h-0 opacity-0 overflow-hidden'}`}
+                    className={`text-xs text-gray-500 pl-2 transition-all duration-300 ${hoverIndex === index ? 'h-auto mt-1 opacity-100' : 'h-0 opacity-0 overflow-hidden'}`}
                   >
                     {service.description}
                   </div>

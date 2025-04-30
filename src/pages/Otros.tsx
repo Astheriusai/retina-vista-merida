@@ -19,7 +19,7 @@ const Otros = () => {
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                     <img 
-                      src="https://medlineplus.gov/images/Pterygium_share.jpg" 
+                      src="https://www.clinicasnovovision.com/wp-content/uploads/2015/04/pterigion1.jpg" 
                       alt="Pterigión" 
                       className="rounded-lg shadow-md w-full h-auto"
                     />
@@ -56,7 +56,7 @@ const Otros = () => {
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                     <img 
-                      src="https://www.aao.org/image.axd?id=a9123acb-65d7-4931-b22f-a8bc57b7063d&t=637656422025970000" 
+                      src="https://www.eurolaser.cat/wp-content/uploads/2021/01/Cuando-operar-estrabismo-infantil.jpg" 
                       alt="Estrabismo" 
                       className="rounded-lg shadow-md w-full h-auto"
                     />
@@ -103,7 +103,7 @@ const Otros = () => {
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                     <img 
-                      src="https://miro.medium.com/v2/resize:fit:1200/1*7QJEjtgB_ffmkPR7RPuQhw.jpeg" 
+                      src="https://www.cliniem.com/wp-content/uploads/2025/02/ojeras-post.jpg" 
                       alt="Blefaroplastia" 
                       className="rounded-lg shadow-md w-full h-auto"
                     />

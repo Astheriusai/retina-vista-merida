@@ -21,7 +21,7 @@ const Laser = () => {
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                   <img 
-                    src="https://static8.depositphotos.com/1376617/1060/i/450/depositphotos_10602851-stock-photo-laser-vision-correction.jpg" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2ewPz7b9LTALfl4tNQLECtDgIc9WVINN8StNqF4V0nmHHqAGSPvECJyATqVVwW0ljnw&usqp=CAU" 
                     alt="Tratamiento láser ocular" 
                     className="rounded-lg shadow-md w-full h-auto"
                   />
@@ -60,11 +60,16 @@ const Laser = () => {
 
               <div className="mt-8">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">¿Cómo se realiza una cirugía láser?</h3>
-                <div className="mb-6">
+                <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
                   <img 
-                    src="https://www.visualcenters.com/wp-content/uploads/2022/11/LASIK-Laser-Eye-Surgery.jpg" 
+                    src="https://clinicadeojoslincoln.com/wp-content/uploads/2015/08/laserterapia-fotocoagulacion.jpg" 
                     alt="Procedimiento de cirugía láser" 
-                    className="rounded-lg shadow-md w-full h-auto mb-4"
+                    className="rounded-lg shadow-md w-full h-auto"
+                  />
+                  <img 
+                    src="https://blog.videre.mx/hs-fs/hubfs/ojos-.jpg?width=473&name=ojos-.jpg" 
+                    alt="Procedimiento de cirugía láser" 
+                    className="rounded-lg shadow-md w-full h-auto"
                   />
                 </div>
                 <p className="text-gray-600 mb-4">

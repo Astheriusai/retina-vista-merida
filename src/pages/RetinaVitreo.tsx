@@ -27,7 +27,7 @@ const RetinaVitreo = () => {
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                   <img 
-                    src="https://www.eyecenteroftexas.com/wp-content/uploads/2022/06/AdobeStock_235249493-1024x683.jpeg" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgBWYvvW0YVMRqNvAPpNmns5l8EBEOfg3qg&s" 
                     alt="Retina y Vítreo" 
                     className="rounded-lg shadow-md w-full h-auto"
                   />
@@ -90,6 +90,21 @@ const RetinaVitreo = () => {
               </div>
 
               <div className="mt-8">
+                <div className="flex flex-col md:flex-row items-center mb-8">
+                  <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                    <img 
+                      src="https://www.ioba.es/wp-content/uploads/2021/03/RetinaVitreo_Desprendimiento_Vitreo_11.jpg" 
+                      alt="Desprendimiento de vítreo" 
+                      className="rounded-lg shadow-md w-full h-auto"
+                    />
+                  </div>
+                  <div className="md:w-1/2">
+                    <h3 className="text-xl font-bold mb-2">Desprendimiento de vítreo posterior</h3>
+                    <p className="text-gray-700">
+                      El desprendimiento de vítreo posterior ocurre cuando el gel vítreo se separa de la retina. Es una condición común asociada con el envejecimiento y puede manifestarse como "moscas volantes" o destellos de luz. Aunque generalmente es benigno, en algunos casos puede conducir a complicaciones como desgarros o desprendimiento de retina.
+                    </p>
+                  </div>
+                </div>
                 <Link to="/contacto" className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300 inline-block">
                   Contáctanos
                 </Link>

@@ -99,7 +99,7 @@ const Contacto = () => {
 
               <div className="mt-6 mb-10">
                 <img 
-                  src="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2022/06/Group-50@2x-300x146.png" 
+                  src="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2020/01/logo-retina3.png" 
                   alt="Dr. Santander logo" 
                   className="h-20 mb-4"
                 />
@@ -114,7 +114,7 @@ const Contacto = () => {
                 <h3 className="text-2xl font-semibold text-gray-800 mb-4">Agenda tu Cita</h3>
                 <div className="bg-white shadow-md rounded-lg p-4 mb-4">
                   <img 
-                    src="https://www.doctoralia.com.mx/images/logo.svg" 
+                    src="https://logos-download.com/wp-content/uploads/2023/02/Doctoralia_Logo.png" 
                     alt="Doctoralia" 
                     className="h-10 mb-4" 
                   />
@@ -223,7 +223,7 @@ const Contacto = () => {
               <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
                 <h4 className="text-lg font-semibold mb-4">Antes de tu visita</h4>
                 <img 
-                  src="https://images.unsplash.com/photo-1606818716177-f9a0676553f8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3" 
+                  src="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-10.48.14-AM.jpeg" 
                   alt="Consultorio oftalmológico" 
                   className="rounded-lg shadow-sm mb-4 w-full h-64 object-cover"
                 />

@@ -18,7 +18,7 @@ const RetinopatiaDialetica = () => {
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                   <img 
-                    src="https://www.nei.nih.gov/sites/default/files/health-images/Normal_macula_1_labeled_0.jpg" 
+                    src="https://bañoftal.com/wp-content/uploads/banoftal-retinopatia-diabetica-tratamiento.jpg" 
                     alt="Retina normal vs. retinopatía diabética" 
                     className="rounded-lg shadow-md w-full h-auto"
                   />
@@ -35,7 +35,7 @@ const RetinopatiaDialetica = () => {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-semibold mb-4 text-clinic-blue">Síntomas</h3>
                   <img 
-                    src="https://eyeclops.com.mx/wp-content/uploads/post-que-es-retinopatia-diabetica-01.jpg" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqAGLBEEHrDCfTYRLXL6kd5DkqBSGfee7QZQ&s" 
                     alt="Síntomas de retinopatía diabética" 
                     className="rounded-lg shadow-sm mb-4 w-full h-40 object-cover"
                   />
@@ -49,7 +49,7 @@ const RetinopatiaDialetica = () => {
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h3 className="text-xl font-semibold mb-4 text-clinic-blue">Factores de riesgo</h3>
                   <img 
-                    src="https://www.diabetes.org/sites/default/files/styles/crop_large/public/2019-05/Complications_Retinopathy.jpg" 
+                    src="https://visioncore.es/wp-content/uploads/2016/11/5.png" 
                     alt="Factores de riesgo" 
                     className="rounded-lg shadow-sm mb-4 w-full h-40 object-cover"
                   />
@@ -72,7 +72,7 @@ const RetinopatiaDialetica = () => {
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/3 mb-4 md:mb-0 md:pr-4">
                     <img 
-                      src="https://www.beyeopticianschool.com/wp-content/uploads/2021/07/diabetic-retinopathy-stages.jpg" 
+                      src="https://www.clinicbarcelona.org/uploads/media/default/0001/11/bc1a3ba874967f904b3cdd93a587f97389a51b9e.jpeg" 
                       alt="Etapas de retinopatía" 
                       className="rounded-lg shadow-md w-full h-auto"
                     />
@@ -100,12 +100,12 @@ const RetinopatiaDialetica = () => {
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Tratamiento</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                   <img 
-                    src="https://www.penhmed.com/wp-content/uploads/2022/05/eye-injection.jpg" 
+                    src="https://longitudeonda.com/wp-content/uploads/2011/07/avastin-inyeccion-intravitrea.jpg" 
                     alt="Inyección intravítrea" 
                     className="rounded-lg shadow-md w-full h-48 object-cover"
                   />
                   <img 
-                    src="https://drnitinguptaeyehospital.com/wp-content/uploads/2020/06/Laser-Surgery.jpg" 
+                    src="https://www.researchgate.net/publication/341494310/figure/fig9/AS:892969917898754@1589912027373/Figura-115-Fotocoagulacion-laser-Obtenido-de-espacio-retinablogspotcom.png" 
                     alt="Láser para retinopatía" 
                     className="rounded-lg shadow-md w-full h-48 object-cover"
                   />

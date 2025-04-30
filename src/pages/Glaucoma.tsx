@@ -27,7 +27,7 @@ const Glaucoma = () => {
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                   <img 
-                    src="https://www.eyeclinicofaustin.com/wp-content/uploads/2022/01/what-is-glaucoma-the-eye-clinic-of-austin-300x300.jpg" 
+                    src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K7ARY35KSNFJJBWCSZGWCI7HQU.png" 
                     alt="Anatomía del glaucoma" 
                     className="rounded-lg shadow-md w-full h-auto"
                   />
@@ -79,6 +79,24 @@ const Glaucoma = () => {
                   <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
                     <h4 className="font-semibold mb-2">Cirugía de glaucoma</h4>
                     <p>Procedimientos como la trabeculectomía o implantes de drenaje para casos avanzados.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8">
+                <div className="flex flex-col md:flex-row items-center mb-8">
+                  <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                    <img 
+                      src="https://www.venturacountylasik.com/wp-content/uploads/eye-anatomy-of-glaucoma.jpg" 
+                      alt="Anatomía del ojo con glaucoma" 
+                      className="rounded-lg shadow-md w-full h-auto"
+                    />
+                  </div>
+                  <div className="md:w-1/2">
+                    <h3 className="text-xl font-bold mb-2">Anatomía del glaucoma</h3>
+                    <p className="text-gray-700">
+                      En un ojo normal, el humor acuoso fluye desde la cámara posterior del ojo, alrededor del iris, hacia la cámara anterior, y se drena a través de una estructura llamada malla trabecular. En el glaucoma, este drenaje se ve obstruido, causando un aumento de presión intraocular que daña el nervio óptico.
+                    </p>
                   </div>
                 </div>
               </div>

@@ -9,7 +9,7 @@ const RetinaVitreo = () => {
   return (
     <div>
       <HeroSection
-        backgroundImage="https://www.aao.org/data/upload/2018/01/08/retina-patients.jpg"
+        backgroundImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgBWYvvW0YVMRqNvAPpNmns5l8EBEOfg3qg&s"
         title="Retina y Vítreo"
         subtitle="Diagnóstico y tratamiento especializado de enfermedades de la retina y el vítreo."
         credentials={true}

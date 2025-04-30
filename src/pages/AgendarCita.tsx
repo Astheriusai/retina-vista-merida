@@ -3,7 +3,7 @@ import HeroSection from '../components/HeroSection';
 import { Calendar, Clock, Phone } from 'lucide-react';
 const AgendarCita = () => {
   return <div>
-      <HeroSection backgroundImage="https://images.unsplash.com/photo-1584516194607-05672d4851d9?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3" title="Agenda tu cita" subtitle="Reserva tu cita de forma rápida y sencilla a través de nuestro sistema de agendamiento integrado con Doctoralia." credentials={false} />
+      <HeroSection backgroundImage="https://d2lcsjo4hzzyvz.cloudfront.net/blog/wp-content/uploads/2022/05/13100505/Por-que%CC%81-ofrecer-citas-me%CC%81dicas-virtuales-a-tus-pacientes-.jpg" title="Agenda tu cita" subtitle="Reserva tu cita de forma rápida y sencilla a través de nuestro sistema de agendamiento integrado con Doctoralia." credentials={false} />
 
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">

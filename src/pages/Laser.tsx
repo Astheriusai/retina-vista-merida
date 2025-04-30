@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Laser = () => {
   return <div>
-      <HeroSection backgroundImage="https://eyeprocenter.com/wp-content/uploads/2021/04/iStock-1213365875-1200x628.jpeg" title="Tratamientos con Láser" subtitle="Tecnología de vanguardia para tratamientos precisos y seguros." credentials={true} />
+      <HeroSection backgroundImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2ewPz7b9LTALfl4tNQLECtDgIc9WVINN8StNqF4V0nmHHqAGSPvECJyATqVVwW0ljnw&usqp=CAU" title="Tratamientos con Láser" subtitle="Tecnología de vanguardia para tratamientos precisos y seguros." credentials={true} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">

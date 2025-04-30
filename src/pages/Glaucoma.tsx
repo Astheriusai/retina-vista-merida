@@ -9,7 +9,7 @@ const Glaucoma = () => {
   return (
     <div>
       <HeroSection
-        backgroundImage="https://www.glaucoma.org/wp-content/uploads/2021/01/iStock-1205850312-2048x1365.jpg"
+        backgroundImage="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K7ARY35KSNFJJBWCSZGWCI7HQU.png"
         title="Glaucoma"
         subtitle="Diagnóstico temprano y tratamiento efectivo del glaucoma."
         credentials={true}

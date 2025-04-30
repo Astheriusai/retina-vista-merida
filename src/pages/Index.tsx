@@ -1,41 +1,29 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import ServiceCard from '../components/ServiceCard';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
-
 const Index = () => {
-  const services = [
-    {
-      title: "Oftalmología Integral",
-      description: "Diagnóstico y tratamiento de todas las afecciones oculares por un especialista altamente capacitado.",
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
-      link: "/oftalmologia-integral"
-    },
-    {
-      title: "Cirugía de Catarata",
-      description: "Procedimientos avanzados para eliminar las cataratas y mejorar significativamente la visión.",
-      image: "https://149350968.v2.pressablecdn.com/wp-content/uploads/2022/03/cataract491x367.jpg",
-      link: "/cirugia-catarata"
-    },
-    {
-      title: "Cirugía Refractiva",
-      description: "Corrección permanente de miopía, astigmatismo e hipermetropía con la más alta tecnología.",
-      image: "https://www.opeluce.com.pe/blog/wp-content/uploads/2024/05/opeluce-blog-cirugia-refractiva.jpg",
-      link: "/cirugia-refractiva"
-    }
-  ];
+  const services = [{
+    title: "Oftalmología Integral",
+    description: "Diagnóstico y tratamiento de todas las afecciones oculares por un especialista altamente capacitado.",
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+    link: "/oftalmologia-integral"
+  }, {
+    title: "Cirugía de Catarata",
+    description: "Procedimientos avanzados para eliminar las cataratas y mejorar significativamente la visión.",
+    image: "https://149350968.v2.pressablecdn.com/wp-content/uploads/2022/03/cataract491x367.jpg",
+    link: "/cirugia-catarata"
+  }, {
+    title: "Cirugía Refractiva",
+    description: "Corrección permanente de miopía, astigmatismo e hipermetropía con la más alta tecnología.",
+    image: "https://www.opeluce.com.pe/blog/wp-content/uploads/2024/05/opeluce-blog-cirugia-refractiva.jpg",
+    link: "/cirugia-refractiva"
+  }];
+  return <div>
+      <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.30.57-PM.jpeg" title="Dr. Juan Pablo Rivera Santander" subtitle="El Dr. Juan Pablo Rivera Santander es Retinólogo y especialista en Córnea, Segmento Anterior y Cirugía Refractiva. Entrenado en las instituciones con mayores avances tecnológicos y de más prestigio en México y Latinoamérica, destaca por su gran profesionalismo e incomparable calidez humana." />
 
-  return (
-    <div>
-      <HeroSection 
-        backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.30.57-PM.jpeg"
-        title="Dr. Juan Pablo Rivera Santander"
-        subtitle="El Dr. Juan Pablo Rivera Santander es Retinólogo y especialista en Córnea, Segmento Anterior y Cirugía Refractiva. Entrenado en las instituciones con mayores avances tecnológicos y de más prestigio en México y Latinoamérica, destaca por su gran profesionalismo e incomparable calidez humana."
-      />
-
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 px-[21px]">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Oftalmología Especializada</h2>
@@ -43,26 +31,18 @@ const Index = () => {
               Sin importar si se trata del tratamiento más pequeño o una operación láser, te esperamos en nuestro consultorio en Mérida, Yucatán. El bienestar de tus ojos es nuestra prioridad.
             </p>
             <div className="mt-6">
-              <Link 
-                to="/contacto" 
-                className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300"
-              >
+              <Link to="/contacto" className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300">
                 Contáctanos
               </Link>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-            {services.map((service, index) => (
-              <ServiceCard key={index} {...service} />
-            ))}
+            {services.map((service, index) => <ServiceCard key={index} {...service} />)}
           </div>
 
           <div className="text-center mt-12">
-            <Link 
-              to="/servicios" 
-              className="inline-flex items-center text-clinic-blue hover:text-clinic-teal transition duration-300 text-lg"
-            >
+            <Link to="/servicios" className="inline-flex items-center text-clinic-blue hover:text-clinic-teal transition duration-300 text-lg">
               Ver todos nuestros servicios
               <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -93,10 +73,7 @@ const Index = () => {
               </div>
 
               <div className="mt-8">
-                <Link 
-                  to="/nosotros" 
-                  className="bg-clinic-dark text-white px-8 py-3 rounded-md hover:bg-clinic-blue transition duration-300"
-                >
+                <Link to="/nosotros" className="bg-clinic-dark text-white px-8 py-3 rounded-md hover:bg-clinic-blue transition duration-300">
                   Conocer más
                 </Link>
               </div>
@@ -114,16 +91,11 @@ const Index = () => {
           <p className="text-lg mb-8 max-w-2xl mx-auto">
             Agenda una cita con el Dr. Juan Pablo Rivera Santander y recibe la mejor atención oftalmológica especializada en Mérida.
           </p>
-          <Link 
-            to="/agendar-cita" 
-            className="bg-white text-clinic-blue px-8 py-3 rounded-md hover:bg-gray-100 transition duration-300 inline-block"
-          >
+          <Link to="/agendar-cita" className="bg-white text-clinic-blue px-8 py-3 rounded-md hover:bg-gray-100 transition duration-300 inline-block">
             Agendar Cita
           </Link>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

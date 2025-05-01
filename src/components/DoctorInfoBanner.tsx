@@ -1,9 +1,9 @@
 import { MapPin, Phone } from 'lucide-react';
 const DoctorInfoBanner = () => {
-  return <div className="bg-clinic-dark text-white py-[13px]">
+  return <div className="bg-clinic-dark text-white py-[9px]">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-center md:text-left mb-4 md:mb-0 max-w-lg text-sm my-0">
+          <p className="text-center md:text-left mb-4 md:mb-0 max-w-lg text-sm py-0 px-0 my-[8px]">
             En el consultorio del Dr. Juan Pablo Rivera Santander en Mérida, Yucatán, te recibirá un oftalmólogo comprometido con el cuidado de tu bienestar.
           </p>
           <div className="flex flex-col space-y-2">

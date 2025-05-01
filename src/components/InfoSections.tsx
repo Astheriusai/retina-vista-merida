@@ -1,12 +1,9 @@
-
 import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
-
 const InfoSections = () => {
-  return (
-    <>
+  return <>
       {/* Consultation Banner */}
-      <section className="bg-clinic-blue text-white py-10">
+      <section className="text-white py-[22px] bg-[#068ad0]">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
@@ -25,8 +22,6 @@ const InfoSections = () => {
           </div>
         </div>
       </section>
-    </>
-  );
+    </>;
 };
-
 export default InfoSections;

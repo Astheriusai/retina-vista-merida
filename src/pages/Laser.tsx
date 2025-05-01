@@ -3,7 +3,6 @@ import ServicesMenu from '../components/ServicesMenu';
 import InfoSections from '../components/InfoSections';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
 import { Link } from 'react-router-dom';
-
 const Laser = () => {
   return <div>
       <HeroSection backgroundImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2ewPz7b9LTALfl4tNQLECtDgIc9WVINN8StNqF4V0nmHHqAGSPvECJyATqVVwW0ljnw&usqp=CAU" title="Tratamientos con Láser" subtitle="Tecnología de vanguardia para tratamientos precisos y seguros." credentials={true} />
@@ -19,11 +18,7 @@ const Laser = () => {
 
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                  <img 
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2ewPz7b9LTALfl4tNQLECtDgIc9WVINN8StNqF4V0nmHHqAGSPvECJyATqVVwW0ljnw&usqp=CAU" 
-                    alt="Tratamiento láser ocular" 
-                    className="rounded-lg shadow-md w-full h-auto"
-                  />
+                  <img alt="Tratamiento láser ocular" className="rounded-lg shadow-md w-full h-auto" src="https://cdn.prod.website-files.com/5ff8126e9f80b718dc63f907/64e32652afebe8102544a081_bladeless%20lasik.webp" />
                 </div>
                 <div className="md:w-1/2">
                   <p className="text-gray-700">
@@ -60,16 +55,8 @@ const Laser = () => {
               <div className="mt-8">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">¿Cómo se realiza una cirugía láser?</h3>
                 <div className="mb-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <img 
-                    src="https://clinicadeojoslincoln.com/wp-content/uploads/2015/08/laserterapia-fotocoagulacion.jpg" 
-                    alt="Procedimiento de cirugía láser" 
-                    className="rounded-lg shadow-md w-full h-auto"
-                  />
-                  <img 
-                    src="https://blog.videre.mx/hs-fs/hubfs/ojos-.jpg?width=473&name=ojos-.jpg" 
-                    alt="Procedimiento de cirugía láser" 
-                    className="rounded-lg shadow-md w-full h-auto"
-                  />
+                  <img src="https://clinicadeojoslincoln.com/wp-content/uploads/2015/08/laserterapia-fotocoagulacion.jpg" alt="Procedimiento de cirugía láser" className="rounded-lg shadow-md w-full h-auto" />
+                  <img src="https://blog.videre.mx/hs-fs/hubfs/ojos-.jpg?width=473&name=ojos-.jpg" alt="Procedimiento de cirugía láser" className="rounded-lg shadow-md w-full h-auto" />
                 </div>
                 <p className="text-gray-600 mb-4">
                   Se emplea anestesia local para insensibilizar el ojo. A continuación, se coloca un sostenedor para mantener los párpados abiertos. 

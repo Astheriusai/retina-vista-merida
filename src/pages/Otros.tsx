@@ -1,10 +1,8 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import InfoSections from '../components/InfoSections';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
-
 const Otros = () => {
   return <div>
       <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.27.56-PM.jpeg" title="Otros Servicios" subtitle="Servicios adicionales especializados para el cuidado de sus ojos." credentials={true} />
@@ -18,11 +16,7 @@ const Otros = () => {
               <div className="bg-white p-6 rounded-lg shadow-md mb-8">
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.clinicasnovovision.com/wp-content/uploads/2015/04/pterigion1.jpg" 
-                      alt="Pterigión" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.clinicasnovovision.com/wp-content/uploads/2015/04/pterigion1.jpg" alt="Pterigión" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <h3 className="text-2xl font-bold text-gray-800 mb-4">Pinguécula y pterigión</h3>
@@ -47,19 +41,13 @@ const Otros = () => {
                     <li>Tratamiento con radiación beta</li>
                   </ul>
                 </div>
-                <Link to="/contacto" className="bg-clinic-blue text-white px-6 py-2 rounded-md hover:bg-clinic-teal transition duration-300 inline-block">
-                  Contáctanos
-                </Link>
+                
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md mb-8">
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.eurolaser.cat/wp-content/uploads/2021/01/Cuando-operar-estrabismo-infantil.jpg" 
-                      alt="Estrabismo" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.eurolaser.cat/wp-content/uploads/2021/01/Cuando-operar-estrabismo-infantil.jpg" alt="Estrabismo" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <h3 className="text-2xl font-bold text-gray-800 mb-4">Estrabismo</h3>
@@ -94,19 +82,13 @@ const Otros = () => {
                     El tratamiento puede requerir el uso de un parche, lentes correctivos, ejercicios oculares o cirugía según la gravedad y tipo de estrabismo.
                   </p>
                 </div>
-                <Link to="/contacto" className="bg-clinic-blue text-white px-6 py-2 rounded-md hover:bg-clinic-teal transition duration-300 inline-block">
-                  Contáctanos
-                </Link>
+                
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.cliniem.com/wp-content/uploads/2025/02/ojeras-post.jpg" 
-                      alt="Blefaroplastia" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.cliniem.com/wp-content/uploads/2025/02/ojeras-post.jpg" alt="Blefaroplastia" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <h3 className="text-2xl font-bold text-gray-800 mb-4">Blefaroplastia</h3>
@@ -130,9 +112,7 @@ const Otros = () => {
                     La blefaroplastia puede realizarse en el párpado superior, inferior o ambos, según las necesidades del paciente. Esta intervención puede mejorar significativamente la calidad de vida al aumentar el campo visual y dar un aspecto más juvenil y descansado.
                   </p>
                 </div>
-                <Link to="/contacto" className="bg-clinic-blue text-white px-6 py-2 rounded-md hover:bg-clinic-teal transition duration-300 inline-block">
-                  Contáctanos
-                </Link>
+                
               </div>
             </div>
             <div className="lg:w-1/3">

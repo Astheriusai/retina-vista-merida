@@ -1,17 +1,10 @@
-
 import { Link } from 'react-router-dom';
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
-
 const CirugiaCatarata = () => {
-  return (
-    <div>
-      <HeroSection 
-        backgroundImage="https://149350968.v2.pressablecdn.com/wp-content/uploads/2022/03/cataract491x367.jpg"
-        title="Cirugía de Catarata"
-        subtitle="Dr. Juan Pablo Rivera Santander | Alta Especialidad en Retina, Córnea, Segmento Anterior y Cirugía Refractiva."
-      />
+  return <div>
+      <HeroSection backgroundImage="https://149350968.v2.pressablecdn.com/wp-content/uploads/2022/03/cataract491x367.jpg" title="Cirugía de Catarata" subtitle="Dr. Juan Pablo Rivera Santander | Alta Especialidad en Retina, Córnea, Segmento Anterior y Cirugía Refractiva." />
 
       <section className="py-16">
         <div className="container mx-auto px-6">
@@ -22,11 +15,7 @@ const CirugiaCatarata = () => {
                 
                 <div className="flex flex-col md:flex-row items-center mb-8">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.aarp.org/content/dam/aarp/health/conditions_treatments/2019/01/1140-normal-and-cataract-eye-esp.jpg" 
-                      alt="Catarata ocular" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.aarp.org/content/dam/aarp/health/conditions_treatments/2019/01/1140-normal-and-cataract-eye-esp.jpg" alt="Catarata ocular" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <p className="text-gray-700">
@@ -38,11 +27,7 @@ const CirugiaCatarata = () => {
                 <h3 className="text-2xl font-semibold text-gray-800 mt-10 mb-4">Los principales síntomas incluyen:</h3>
                 <div className="flex flex-col md:flex-row items-center mb-8">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.bogotalaser.com/wp-content/uploads/2024/12/1-todo-sobre-las-cataratas-768x560.webp" 
-                      alt="Síntomas de cataratas" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.bogotalaser.com/wp-content/uploads/2024/12/1-todo-sobre-las-cataratas-768x560.webp" alt="Síntomas de cataratas" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
@@ -56,22 +41,13 @@ const CirugiaCatarata = () => {
                 </div>
                 
                 <div className="mt-8">
-                  <Link 
-                    to="/contacto" 
-                    className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300 inline-block"
-                  >
-                    Contáctanos
-                  </Link>
+                  
                 </div>
                 
                 <h3 className="text-2xl font-semibold text-gray-800 mt-12 mb-4">¿A qué edad se generan las cataratas?</h3>
                 <div className="flex flex-col md:flex-row items-center mb-8">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YHWGUD44Y5HANNDSDVIJVFSPZE.jpg" 
-                      alt="Desarrollo de cataratas" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/YHWGUD44Y5HANNDSDVIJVFSPZE.jpg" alt="Desarrollo de cataratas" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <p className="text-gray-700 mb-4">
@@ -104,10 +80,7 @@ const CirugiaCatarata = () => {
                 </div>
                 
                 <div className="mt-8">
-                  <Link 
-                    to="/contacto" 
-                    className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300 inline-block"
-                  >
+                  <Link to="/contacto" className="bg-clinic-blue text-white px-8 py-3 rounded-md hover:bg-clinic-teal transition duration-300 inline-block">
                     Contáctanos
                   </Link>
                 </div>
@@ -122,8 +95,6 @@ const CirugiaCatarata = () => {
       </section>
 
       <DoctorInfoBanner />
-    </div>
-  );
+    </div>;
 };
-
 export default CirugiaCatarata;

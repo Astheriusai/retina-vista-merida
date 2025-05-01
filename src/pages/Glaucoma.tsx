@@ -1,19 +1,11 @@
-
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import InfoSections from '../components/InfoSections';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
 import { Link } from 'react-router-dom';
-
 const Glaucoma = () => {
-  return (
-    <div>
-      <HeroSection
-        backgroundImage="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K7ARY35KSNFJJBWCSZGWCI7HQU.png"
-        title="Glaucoma"
-        subtitle="Diagnóstico temprano y tratamiento efectivo del glaucoma."
-        credentials={true}
-      />
+  return <div>
+      <HeroSection backgroundImage="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K7ARY35KSNFJJBWCSZGWCI7HQU.png" title="Glaucoma" subtitle="Diagnóstico temprano y tratamiento efectivo del glaucoma." credentials={true} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">
@@ -26,11 +18,7 @@ const Glaucoma = () => {
 
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                  <img 
-                    src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K7ARY35KSNFJJBWCSZGWCI7HQU.png" 
-                    alt="Anatomía del glaucoma" 
-                    className="rounded-lg shadow-md w-full h-auto"
-                  />
+                  <img alt="Anatomía del glaucoma" className="rounded-lg shadow-md w-full h-auto" src="https://medlineplus.gov/spanish/ency/images/ency/fullsize/9349.jpg" />
                 </div>
                 <div className="md:w-1/2">
                   <p className="text-gray-700">
@@ -86,11 +74,7 @@ const Glaucoma = () => {
               <div className="mt-8">
                 <div className="flex flex-col md:flex-row items-center mb-8">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.venturacountylasik.com/wp-content/uploads/eye-anatomy-of-glaucoma.jpg" 
-                      alt="Anatomía del ojo con glaucoma" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.venturacountylasik.com/wp-content/uploads/eye-anatomy-of-glaucoma.jpg" alt="Anatomía del ojo con glaucoma" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <h3 className="text-xl font-bold mb-2">Anatomía del glaucoma</h3>
@@ -132,8 +116,6 @@ const Glaucoma = () => {
       
       <DoctorInfoBanner />
       <InfoSections />
-    </div>
-  );
+    </div>;
 };
-
 export default Glaucoma;

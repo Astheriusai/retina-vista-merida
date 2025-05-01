@@ -46,7 +46,7 @@ const Contacto = () => {
     }, 1500);
   };
   return <div>
-      <HeroSection backgroundImage="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3" title="Contacto" subtitle="Estamos aquí para responder a todas sus preguntas sobre servicios oftalmológicos." credentials={false} />
+      <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/10/contacto-header.png?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3" title="Contacto" subtitle="Estamos aquí para responder a todas sus preguntas sobre servicios oftalmológicos." credentials={false} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">

@@ -5,7 +5,7 @@ import DoctorInfoBanner from '../components/DoctorInfoBanner';
 import { Link } from 'react-router-dom';
 const Cornea = () => {
   return <div>
-      <HeroSection backgroundImage="https://www.portafolio.co/files/article_main/uploads/2022/01/26/61f1968262c19.jpeg" title="Córnea" subtitle="Tratamientos especializados para todas las condiciones corneales." credentials={true} />
+      <HeroSection backgroundImage="https://oftalmologiaespecializadadrsantander.com/wp-content/uploads/2019/11/WhatsApp-Image-2019-11-04-at-1.30.57-PM-1.jpeg" title="Córnea" subtitle="Tratamientos especializados para todas las condiciones corneales." credentials={true} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">

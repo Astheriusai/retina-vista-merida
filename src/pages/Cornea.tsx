@@ -1,19 +1,11 @@
-
 import HeroSection from '../components/HeroSection';
 import ServicesMenu from '../components/ServicesMenu';
 import InfoSections from '../components/InfoSections';
 import DoctorInfoBanner from '../components/DoctorInfoBanner';
 import { Link } from 'react-router-dom';
-
 const Cornea = () => {
-  return (
-    <div>
-      <HeroSection
-        backgroundImage="https://www.portafolio.co/files/article_main/uploads/2022/01/26/61f1968262c19.jpeg"
-        title="Córnea"
-        subtitle="Tratamientos especializados para todas las condiciones corneales."
-        credentials={true}
-      />
+  return <div>
+      <HeroSection backgroundImage="https://www.portafolio.co/files/article_main/uploads/2022/01/26/61f1968262c19.jpeg" title="Córnea" subtitle="Tratamientos especializados para todas las condiciones corneales." credentials={true} />
 
       <section className="py-16">
         <div className="container mx-auto px-6">
@@ -26,11 +18,7 @@ const Cornea = () => {
 
               <div className="flex flex-col md:flex-row items-center mb-8">
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                  <img 
-                    src="https://aio-oftalmologia.com/wp-content/uploads/De-que-se-ocupa-un-oftalmologo.jpg" 
-                    alt="Evaluación de córnea" 
-                    className="rounded-lg shadow-md w-full h-auto"
-                  />
+                  <img alt="Evaluación de córnea" className="rounded-lg shadow-md w-full h-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJl4c4LFeLI9D-RiboXsaA6DRS_pBoNCUAsckWhuDobrJfPYHRpty0H438Lrx1zfpeU4c&usqp=CAU" />
                 </div>
                 <div className="md:w-1/2">
                   <p className="text-gray-700">
@@ -68,11 +56,7 @@ const Cornea = () => {
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Anatomía de la córnea</h3>
                 <div className="flex flex-col md:flex-row items-center mb-8">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://www.vista-laser.com/wp-content/uploads/2022/05/estructura-ojo.png" 
-                      alt="Estructura del ojo" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://www.vista-laser.com/wp-content/uploads/2022/05/estructura-ojo.png" alt="Estructura del ojo" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <p className="text-gray-700">
@@ -86,11 +70,7 @@ const Cornea = () => {
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Queratocono: una enfermedad progresiva</h3>
                 <div className="flex flex-col md:flex-row items-center mb-6">
                   <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
-                    <img 
-                      src="https://salauno.com.mx/wp-content/uploads/2023/07/ojo-con-queratocono-salauno.jpg" 
-                      alt="Queratocono" 
-                      className="rounded-lg shadow-md w-full h-auto"
-                    />
+                    <img src="https://salauno.com.mx/wp-content/uploads/2023/07/ojo-con-queratocono-salauno.jpg" alt="Queratocono" className="rounded-lg shadow-md w-full h-auto" />
                   </div>
                   <div className="md:w-1/2">
                     <p className="text-gray-700">
@@ -124,8 +104,6 @@ const Cornea = () => {
       
       <DoctorInfoBanner />
       <InfoSections />
-    </div>
-  );
+    </div>;
 };
-
 export default Cornea;

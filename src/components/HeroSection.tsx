@@ -17,8 +17,8 @@ const HeroSection = ({
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/40"></div>
       
-      <div className="content-overlay container relative z-10 mx-auto text-center py-16 md:py-24 px-[82px] bg-[#091e1e]/40">
-        <h1 className="mb-4 font-bold text-4xl md:text-5xl lg:text-6xl max-w-4xl mx-auto animate-slide-in">{title}</h1>
+      <div className="content-overlay container relative z-10 mx-auto text-center md:py-24 bg-[#091e1e]/40 px-[173px] py-[74px]">
+        <h1 className="mb-4 font-bold text-4xl md:text-5xl lg:text-6xl max-w-4xl mx-auto animate-slide-in px-0">{title}</h1>
         <div className="max-w-3xl mx-auto">
           <p className="text-lg md:text-xl mb-8 animate-slide-in">{subtitle}</p>
           {credentials && <div className="mt-4 bg-black/30 backdrop-blur-sm p-4 rounded-lg inline-block animate-fade-in">
@@ -30,9 +30,7 @@ const HeroSection = ({
               </p>
             </div>}
           <div className="mt-8">
-            <Link to="/agendar-cita" className="bg-clinic-blue px-8 py-3 rounded-md text-white font-medium hover:bg-clinic-teal transition duration-300 animate-fade-in">
-              Agenda una Cita
-            </Link>
+            
           </div>
         </div>
       </div>

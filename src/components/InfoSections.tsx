@@ -7,7 +7,7 @@ const InfoSections = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <h3 className="font-bold mb-2 text-xl">¿Necesitas una Consulta?</h3>
+              <h3 className="font-bold mb-2 text-lg">¿Necesitas una Consulta?</h3>
               <p className="max-w-2xl text-sm">
                 Agenda una cita con el Dr. Juan Pablo Rivera Santander y recibe la mejor atención oftalmológica especializada en Mérida.
               </p>

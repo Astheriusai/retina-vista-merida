@@ -1,10 +1,7 @@
-
 import { MapPin, Phone } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
-
 const DoctorInfoBanner = () => {
   const isMobile = useIsMobile();
-
   return <div className="bg-clinic-dark text-white py-[4px]">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
@@ -25,5 +22,4 @@ const DoctorInfoBanner = () => {
       </div>
     </div>;
 };
-
 export default DoctorInfoBanner;
